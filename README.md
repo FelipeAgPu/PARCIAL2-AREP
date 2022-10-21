@@ -64,7 +64,7 @@ Para desplegar este proyecto en la nube, es necesaria la creación de una maquin
 La cual debe ser creada desde el panel de EC2 por medio de la opción instancias.
 Los parámetros deben de ser los que estan por defecto, luego se debe lanzar la instancia.
 
-![](imgs/Screenshot 2022-10-21 135854.png)
+![](./imgs/Screenshot 2022-10-21 135854.png)
 
 ![](imgs/Screenshot 2022-10-21 140023.png)
 
