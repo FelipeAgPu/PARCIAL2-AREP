@@ -64,30 +64,30 @@ Para desplegar este proyecto en la nube, es necesaria la creación de una maquin
 La cual debe ser creada desde el panel de EC2 por medio de la opción instancias.
 Los parámetros deben de ser los que estan por defecto, luego se debe lanzar la instancia.
 
-![Instancia](imgs/Screenshot 2022-10-21 135854.png)
+![](imgs/Screenshot 2022-10-21 135854.png)
 
-![Lanzar](imgs/Screenshot 2022-10-21 140023.png)
+![](imgs/Screenshot 2022-10-21 140023.png)
 
 Una vez la instancia ya ha sido creada, se debe permitir el tráfico a esta desde internet por lo que se
 modificaran las reglas de entrada a la instancia.
 
-![Seguridad](imgs/Screenshot 2022-10-21 140346.png)
+![](imgs/Screenshot 2022-10-21 140346.png)
 
 Una vez en el apartado de seguridad de la instancia, se entra al grupo de seguridad, en este se debe seleccionar
 la opción de *Editar reglas de entrada*.
 
-![Grupo de Seguridad](imgs/Screenshot 2022-10-21 140415.png)
+![](imgs/Screenshot 2022-10-21 140415.png)
 
 
 Al estar en la pantalla para modificar las reglas, se debe agregar una nueva regla y
 hacerla visible para todo internet.
 
-![Agregar](imgs/Screenshot 2022-10-21 140447.png)
+![](imgs/Screenshot 2022-10-21 140447.png)
 
 Finalmente, para conectarse a la maquina se deben seguir los paso que
 brinda AWS para una conexión por un cliente ssh
 
-![Conexion](imgs/Screenshot 2022-10-21 140800.png)
+![](imgs/Screenshot 2022-10-21 140800.png)
 
 ### Funcionamiento con Docker
 
